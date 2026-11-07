@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Портфоліо Людмили — frontend-розробка, адаптивна верстка та навчальні проєкти на React і TypeScript."
+    />
+
+    <title>Людмила — Frontend Developer</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Перейти до вмісту</a>
+
+    <header class="header">
+      <div class="container header-inner">
+        <a class="logo" href="#home">Liudmyla<span>.</span></a>
+
+        <nav class="navigation" aria-label="Основна навігація">
+          <a href="#projects">Проєкти</a>
+          <a href="#about">Про мене</a>
+          <a href="#skills">Навички</a>
+          <a href="#contacts">Контакти</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="container hero-inner">
+          <div class="hero-content">
+            <p class="eyebrow">Frontend Developer · Київ, Україна</p>
+
+            <h1 id="hero-title">
+              Я Людмила.<br />
+              Створюю інтерфейси,<br />
+              <span>продумую деталі.</span>
+            </h1>
+
+            <p class="hero-description">
+              Розробляю адаптивні сторінки та навчальні застосунки на
+              JavaScript, React і TypeScript. Поєдную охайну верстку зі
+              зрозумілою логікою.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects">
+                Переглянути проєкти <span aria-hidden="true">↗</span>
+              </a>
+
+              <a class="button button-secondary" href="#contacts">
+                Зв’язатися зі мною
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-photo">
+  <img
+    src="./IMG_3038.PNG"
+    alt="Людмила — frontend-розробниця"
+    fetchpriority="high"
+  />
+</div>
+
+            <div class="profile-monogram" aria-hidden="true">L.</div>
+
+            <p class="profile-title">Від ідеї до інтерфейсу</p>
+
+            <p class="profile-description">
+              Структура. Стилі. Логіка.<br />
+              Увага до кожного етапу.
+            </p>
+
+            <div class="profile-tags">
+              <span>React</span>
+              <span>TypeScript</span>
+              <span>CSS</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section projects"
+        id="projects"
+        aria-labelledby="projects-title"
+      >
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">01 / Практика</p>
+            <h2 id="projects-title">Мої проєкти<span>.</span></h2>
+            <p class="section-description">
+              Навчальні роботи, через які я розбираюся у верстці, компонентах і
+              взаємодії з користувачем.
+            </p>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-cover cover-workflow">
+                <span class="cover-number">01</span>
+                <span class="cover-title">WorkFlow</span>
+                <span class="cover-caption"
+                  >Кожне завдання на своєму місці</span
+                >
+              </div>
+
+              <div class="project-content">
+                <p class="project-type">Навчальний застосунок</p>
+                <h3>WorkFlow</h3>
+
+                <p class="project-description">
+                  Проєкт для практики керування завданнями: додавання,
+                  видалення, зміна статусу та підрахунок статистики.
+                </p>
+
+                <ul class="tags" aria-label="Технології WorkFlow">
+                  <li>React</li>
+                  <li>TypeScript</li>
+                  <li>CSS</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-cover cover-coffee">
+                <span class="cover-number">02</span>
+                <span class="cover-title">Coffee House</span>
+                <span class="cover-caption">Трохи кави. Трохи спокою.</span>
+              </div>
+
+              <div class="project-content">
+                <p class="project-type">Адаптивна верстка</p>
+                <h3>Coffee House</h3>
+
+                <p class="project-description">
+                  Сайт кав’ярні для практики адаптивної верстки, роботи з
+                  відступами, типографікою та розташуванням елементів на різних
+                  екранах.
+                </p>
+
+                <ul class="tags" aria-label="Технології Coffee House">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Responsive</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-cover cover-english">
+                <span class="cover-number">03</span>
+                <span class="cover-title">English Trainer</span>
+                <span class="cover-caption">Small steps. Daily practice.</span>
+              </div>
+
+              <div class="project-content">
+                <p class="project-type">Навчальний застосунок</p>
+                <h3>English Trainer</h3>
+
+                <p class="project-description">
+                  Проєкт на тему вивчення англійської мови. Практика побудови
+                  React-компонентів і роботи зі станом інтерфейсу.
+                </p>
+
+                <ul class="tags" aria-label="Технології English Trainer">
+                  <li>React</li>
+                  <li>JavaScript</li>
+                  <li>CSS</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about" aria-labelledby="about-title">
+        <div class="container about-inner">
+          <div class="section-heading">
+            <p class="eyebrow">02 / Знайомство</p>
+            <h2 id="about-title">Про мене<span>.</span></h2>
+          </div>
+
+          <div class="about-content">
+            <p class="about-lead">
+              Мені цікаво розуміти, як працює інтерфейс — від першого HTML-тега
+              до дії користувача.
+            </p>
+
+            <p>
+              Я вивчаю frontend-розробку й закріплюю знання на власних
+              навчальних проєктах. Працюю з HTML, CSS, JavaScript, React і
+              TypeScript.
+            </p>
+
+            <p>
+              Практикую адаптивну верстку, створення компонентів, роботу з
+              формами та даними. Поступово ускладнюю завдання й повертаюся до
+              основ, щоб краще розуміти власний код.
+            </p>
+
+            <p>
+              Моя наступна ціль — поглибити знання frontend і розвиватися в
+              напрямі full-stack.
+            </p>
+
+            <div class="about-note">
+              <span class="note-label">Зараз у фокусі</span>
+              <p>JavaScript · React · TypeScript</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section skills"
+        id="skills"
+        aria-labelledby="skills-title"
+      >
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">03 / Інструменти</p>
+            <h2 id="skills-title">Що використовую<span>.</span></h2>
+            <p class="section-description">
+              Технології, з якими працюю в навчальних проєктах.
+            </p>
+          </div>
+
+          <div class="skills-grid">
+            <article class="skill-card">
+              <span class="skill-number">01</span>
+              <h3>Верстка</h3>
+              <p>Структура сторінки та адаптація до різних екранів.</p>
+
+              <ul class="skill-list">
+                <li>HTML5 · семантична розмітка</li>
+                <li>CSS3 · Flexbox · Grid</li>
+                <li>Media queries · mobile-first</li>
+              </ul>
+            </article>
+
+            <article class="skill-card">
+              <span class="skill-number">02</span>
+              <h3>Логіка інтерфейсу</h3>
+              <p>Компоненти, події та робота з даними.</p>
+
+              <ul class="skill-list">
+                <li>JavaScript · масиви та об’єкти</li>
+                <li>React · props · hooks</li>
+                <li>TypeScript · типізація</li>
+              </ul>
+            </article>
+
+            <article class="skill-card">
+              <span class="skill-number">03</span>
+              <h3>Робочі інструменти</h3>
+              <p>Написання коду та організація проєктів.</p>
+
+              <ul class="skill-list">
+                <li>Git · GitHub</li>
+                <li>VS Code · Prettier</li>
+                <li>Vite · npm</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section contacts"
+        id="contacts"
+        aria-labelledby="contacts-title"
+      >
+        <div class="container contacts-inner">
+          <div>
+            <p class="eyebrow">04 / Контакти</p>
+            <h2 id="contacts-title">Почнемо з розмови<span>?</span></h2>
+            <p class="contact-description">
+              Хочете обговорити проєкт або познайомитися? Буду рада
+              поспілкуватися.
+            </p>
+          </div>
+
+          <!-- Заміни текст нижче своїми контактами перед публікацією. -->
+          <div class="contact-card">
+            <div class="contact-item">
+              <h3>Email</h3>
+              <p>Додай свою електронну адресу</p>
+            </div>
+
+            <div class="contact-item">
+              <h3>GitHub</h3>
+              <p>Додай посилання на свій профіль</p>
+            </div>
+
+            <div class="contact-item">
+              <h3>Telegram</h3>
+              <p>Додай свій нікнейм</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <a class="logo" href="#home">Liudmyla<span>.</span></a>
+        <p>Особисте портфоліо · 2026</p>
+        <a class="back-top" href="#home">Нагору ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
